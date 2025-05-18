@@ -1,0 +1,54 @@
+
+alias ccw='cc -Wall -Wextra -Werror'
+alias norm='norminette -R CheckForbiddenSourceHeader'
+alias normh='norminette -R CheckForbiddenSourceHeader -R CheckDefine'
+
+#alias ll='ls -l'
+#alias la='ls -a'
+#alias lla='ls -la'
+#alias lal='ls -la'
+alias valg='valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes'
+alias maek='make'
+alias mkae='make'
+alias mkea='make'
+
+
+alias vim='nvim'
+alias vROM='nvim -M'
+alias man='env MANPAGER="vim +MANPAGER --not-a-term -M -" man'
+
+alias f='fzf'
+alias sf='set | fzf'
+alias pf='ps -A | fzf'
+
+alias rm='mv -t ~/Trash'
+
+setopt hist_ignore_dups
+setopt hist_ignore_all_dups
+
+bindkey -v
+
+galtu=`echo "
+　  Λ＿Λ 　　　 ＼＼
+ （　・∀・）　　　|　|　ｶﾞｯ
+ と　　　　）　 　 |　|
+ 　 Ｙ　/ノ　　　 人
+ 　　 /　）　 < 　>__Λ∩
+  ＿/し'　／／. Ｖ｀Д´）/ ← >>1
+ （＿フ彡　　　　　 　　/
+ "`
+alias nurupo='echo $galtu'
+alias ぬるぽ='echo $galtu'
+
+alias wezterm='~/squashfs-root/AppRun start --always-new-process'
+
+#PATH=$PATH:~/bin
+
+
+# plugin setting
+#ZVM_VI_INSERT_ESCAPE_BINDKEY=jj
+
+# startup AA
+echo '  ∧＿∧    '
+echo '（　´∀｀） <  ぬるぽ'
+echo 
